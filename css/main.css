@@ -53,6 +53,42 @@ h2 {
 	font-weight: normal;
 }
 
+.comp{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+
+}
+
+.comp li{
+	flex: 1;
+	min-width: 200px
+}
+.divwork1{
+	overflow-x: auto;
+	background-color:#999;
+	padding: 1em;
+	border-radius: .8em;
+	margin: .4em;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+
+.work1 th,td{
+	
+	
+	font-family: sans-serif; 
+	margin: 50px 0;
+	color: black;
+	font-size: 1em;
+	font-weight: normal;
+	border: 1px solid black;
+	letter-spacing: 0.10em;
+	line-height: 0.8em;
+	border-radius: 10px;
+
+}
+
 /********************
 NAVIGATION
 ********************/
@@ -201,6 +237,11 @@ h1, h2 {
 /* links */
 a {
 	color: #329999;
+}
+
+td{
+	color: #329999;
+
 }
 
 /* nav link */
