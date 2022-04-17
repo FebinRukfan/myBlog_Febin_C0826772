@@ -74,19 +74,40 @@ h2 {
 }
 
 
-.work1 th,td{
+.work1 th{
 	
 	
 	font-family: sans-serif; 
 	margin: 50px 0;
 	color: black;
-	font-size: 1em;
+	font-size: 1.2em;
+	padding: .5em;
+
 	font-weight: normal;
-	border: 1px solid black;
+	border: 1px solid white;
 	letter-spacing: 0.10em;
 	line-height: 0.8em;
-	border-radius: 10px;
+	border-radius: 1px;
 
+}
+
+.work1 td{
+	
+	
+	font-family: sans-serif; 
+	margin: 50px 0;
+	padding: .8em;
+	color: white;
+	font-size: .8em;
+	font-weight: normal;
+	border: 1px solid white;
+	letter-spacing: 0.10em;
+	line-height: 0.8em;
+	border-radius: 1px;
+
+}
+.label1{
+	color: white;
 }
 
 /********************
